@@ -1,0 +1,11 @@
+[
+    {
+        "institution": "Codeacademy",
+        "location": "",
+        "certificates": [
+            "Learn JavaScript",
+            "Learn CSS: Accessibility",
+            "Learn AngularJS 1.X"
+        ]
+    }
+]

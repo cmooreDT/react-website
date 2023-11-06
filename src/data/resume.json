@@ -1,0 +1,63 @@
+[
+    {
+        "role": "Senior UI/UX Developer and Technical Consultant",
+        "company": "Khoros",
+        "location": "Remote",
+        "time": "January 2022 to present",
+        "duties": [
+            "Communicate directly with customers and guide them on how to use and customize Khoros' Community product",
+            "Assess customers/' desired customized components, scope projects, create LOEs, and delegate tasks to junior developers as a Tech Lead",
+            "Write internal and external developer and customer documentation",
+            "Collaborate with UX/UI designers to take design specs from Figma and translate them into code",
+            "Conduct code reviews for other developers and check for efficiency and coding standards",
+            "Ensure accessibility/WCAG standards are met including utilizing Mac OS' and iOS' native screen reader, Chrome's developer tools, and the Axe Accessibility browser extension",
+            "Work in an Agile environment with daily stand-ups and weekly sprint planning"
+        ]
+    },
+    {
+        "role": "UI/UX Developer",
+        "company": "Empyrean Benefit Solutions",
+        "location": "Houston, TX",
+        "time": "April 2019 to December 2022",
+        "duties": [
+            "Collaborated with an in-house team of front and backend developers, graphic designers, and project managers in order to style around Vue.js and Aurelia projects",
+            "Delivered within a tight two-week sprint schedule and deadlines with Agile project management",
+            "Built company's flagship products - web-based HR enrollment and administration software",
+            "Customized product based on individual client needs"
+        ]
+    },
+    {
+        "role": "UI/UX Developer",
+        "company": "Pageflex",
+        "location": "Houston, TX",
+        "time": "Feburary 2014 to March 2019",
+        "duties": [
+            "Worked with the front and backend development team, marketing department, and company executives in order to significantly upgrade the Pageflex web-to-print marketing platform",
+            "Converted existing client websites to Bootstrap as to ensure responsiveness across all browsers, platforms, and devices",
+            "Worked in tangent with other developers' AngularJS framework",
+            "Participated in the creation of custom widgets with with project managers for 10-15 individual clients based on their needs"
+        ]
+    },
+    {
+        "role": "Front-end Developer",
+        "company": "American Apparel",
+        "location": "Los Angeles, CA",
+        "time": "July 2006 to May 2010",
+        "duties": [
+            "Lead frontend development of the brand's websites, intranet, and online stores",
+            "Assisted in creating the company's custom CMS and shopping cart system for the eight international e-commerce sites",
+            "Developed product page customizations and home page features for the online stores",
+            "Worked with art department, marketing, graphic designers, and product and project managers to code email blasts in multiple languages for retail and wholesale consumers, and corporate website- Lead frontend development of the brand's websites, intranet, and online stores", "Assisted in creating the company's custom CMS and shopping cart system for the eight international e-commerce sites - Developed product page customizations and home page features for the online stores - Worked with art department, marketing, graphic designers, and product and project managers to code email blasts in multiple languages for retail and wholesale consumers, and corporate website"
+        ]
+    },
+    {
+        "role": "Internet Content Coordinator",
+        "company": "STA Travel",
+        "location": "Los Angeles, CA",
+        "time": "May 2005 to June 2006",
+        "duties": [
+            "Co-lead a global website redesign and CMS migration with IBM and STA Travel, Global",
+            "Writing content, web design, and programming for the corporate websites, intranet, and email blast"
+        ]
+    }
+]
