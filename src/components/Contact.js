@@ -8,9 +8,9 @@ export default function Contact() {
     // const element = <FontAwesomeIcon icon={faCoffee} />
 
     return (
-        <section id="contact">
+        <section id="contact" className="pt-20">
             <div className="container mx-auto px-10 pb-20">
-                <div className="w-full lg:pr-24 md:pr-16 flex flex-col md:items-start mb-16 md:mb-0 text-left">
+                <div className="w-full lg:pr-24 md:pr-16 flex flex-col md:items-start text-left">
                     <h2 className="sm:text-4xl text-3xl mb-4 font-medium text-white">Contact</h2>
                     <ul className="flex items-center">
                         <li className="pr-5">

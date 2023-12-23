@@ -1,0 +1,13 @@
+[
+    {
+        "url": "carousel",
+        "title": "React Slick carousel",
+        "techStack": [
+            "React",
+            "Slick Carousel",
+            "SASS",
+            "Mapped objects"
+        ],
+        "features": "Built their standard carousel but added accessibility and responsive design"
+    }
+]

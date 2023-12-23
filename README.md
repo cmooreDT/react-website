@@ -1,3 +1,15 @@
+# christinecodes.com
+
+## Dependencies used:
+- FontAwesome
+- react
+- react-dom
+- react-router-dom
+- react-router-hash-link
+- react-slick
+- slick-carousel
+- sass
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
