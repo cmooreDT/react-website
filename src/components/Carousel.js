@@ -74,7 +74,7 @@ export default class AppendDots extends Component {
         };
         return (
             <div className="App">
-                <Link smooth to="/#projects" className="text-white transition hover:text-gray-300 hover:ease-in block mb-7 underline"><FontAwesomeIcon icon={faAnglesLeft} /> Back to projects</Link>
+                <Link smooth to="/#projects" className="text-white transition hover:text-gray-300 hover:ease-in block mb-7 hover:underline"><FontAwesomeIcon icon={faAnglesLeft} /> Back to projects</Link>
                 <div className="slick-container">
                     <Slider {...settings}>
                         {data.map((item, index) => (

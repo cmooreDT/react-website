@@ -14,7 +14,7 @@ export default function Projects() {
                     {data.map((project, index) => (
                         <div key={index} className="w-full pb-7 mb-7 last:pb-0 last:mb-0 border-b border-gray-300 last:border-b-0">
                             <h3 className="text-lg font-bold pb-1 text-white">
-                                <Link className="transition hover:text-gray-300 hover:ease-in underline" to={project.url}>{project.title} <FontAwesomeIcon icon={faArrowRight} /></Link>
+                                <Link className="transition hover:text-gray-300 hover:ease-in hover:underline" to={project.url}>{project.title} <FontAwesomeIcon icon={faArrowRight} /></Link>
                             </h3>
                             <div className="w-full pb-1">
                                 {project.features}
