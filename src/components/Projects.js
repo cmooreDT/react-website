@@ -4,6 +4,7 @@ import data from "../data/projects.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Projects() {
     return (
@@ -14,12 +15,16 @@ export default function Projects() {
                     {data.map((project, index) => (
                         <div key={index} className="w-full pb-7 mb-7 last:pb-0 last:mb-0 border-b border-gray-300 last:border-b-0">
                             <h3 className="text-lg font-bold pb-1 text-white">
-                                <Link className="transition hover:text-gray-300 hover:ease-in hover:underline" to={project.url}>{project.title} <FontAwesomeIcon icon={faArrowRight} /></Link>
+                                {project.title}
                             </h3>
+                            <div className="w-full pb-1">
+                                <Link className="inline-block pr-4 transition hover:text-white hover:ease-in hover:underline" to={project.url}>Demo <FontAwesomeIcon icon={faArrowRight} /></Link>
+                                <Link className="inline-block pr-4 transition hover:text-white hover:ease-in hover:underline" to={project.repo}>GitHub repo <FontAwesomeIcon icon={faGithub} /></Link>
+                            </div>
                             <div className="w-full pb-1">
                                 {project.features}
                             </div>
-                            <div className="w-full"> 
+                            <div className="w-full">
                                 <ul className="list-disc pl-10">
                                     {project.techStack.map((language, index) => {
                                         return <li key={index}>{language}</li>

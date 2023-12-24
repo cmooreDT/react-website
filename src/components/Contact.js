@@ -5,8 +5,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact() {
-    // const element = <FontAwesomeIcon icon={faCoffee} />
-
     return (
         <section id="contact" className="pt-20">
             <div className="container mx-auto px-10 pb-20">

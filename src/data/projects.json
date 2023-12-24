@@ -1,6 +1,7 @@
 [
     {
         "url": "carousel",
+        "repo": "https://github.com/cmooreDT/customized-react-slick",
         "title": "React Slick carousel",
         "techStack": [
             "React",
