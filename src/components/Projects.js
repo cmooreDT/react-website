@@ -19,7 +19,7 @@ export default function Projects() {
                             </h3>
                             <div className="w-full pb-1">
                                 <Link className="inline-block pr-4 transition hover:text-white hover:ease-in hover:underline" to={project.url}>Demo <FontAwesomeIcon icon={faArrowRight} /></Link>
-                                <Link className="inline-block pr-4 transition hover:text-white hover:ease-in hover:underline" to={project.repo}>GitHub repo <FontAwesomeIcon icon={faGithub} /></Link>
+                                <Link className="inline-block pr-4 transition hover:text-white hover:ease-in hover:underline" to={project.repo} target="_blank">GitHub repo <FontAwesomeIcon icon={faGithub} /></Link>
                             </div>
                             <div className="w-full pb-1">
                                 {project.features}
