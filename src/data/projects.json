@@ -7,8 +7,19 @@
             "React",
             "Slick Carousel",
             "SASS",
-            "Mapped objects"
+            "Mapped objects",
+            "Cat tax"
         ],
         "features": "Built their standard carousel but added accessibility and responsive design"
+    },
+    {
+        "url": "#",
+        "repo": "#",
+        "title": "This website",
+        "techStack": [
+            "React",
+            "Mapped objects"
+        ],
+        "features": ""
     }
 ]

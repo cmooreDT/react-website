@@ -18,7 +18,7 @@ export default function App() {
     return (
         <Router>
             <Navbar />
-            <main id="home" className="text-gray-300 font-sans pt-20">
+            <main id="home" className="container mx-auto px-10 text-gray-300 font-sans pt-20">
                 <Routes>
                     <Route
                         path="/"
