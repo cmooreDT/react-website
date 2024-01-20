@@ -9,7 +9,7 @@ export default function About() {
             </div>
             <div className="md:inline-block md:w-2/3 sm:w-full lg:pr-24 md:pr-16 items-center">
                 <h1 className="sm:text-4xl text-3xl mb-5 font-medium text-white">
-                    Hello, 
+                    Hello,
                     <br className="hidden lg:inline-block" />
                     my name is Christine.
                 </h1>

@@ -7,7 +7,7 @@ export default function Education() {
         <section id="education" className="pt-20">
         <div className="w-full lg:pr-24 md:pr-16 flex flex-col md:items-start text-left">
                 <h2 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
-                    Education 
+                    Education
                     {/* and Certifications */}
                 </h2>
                 {data.map((cert, index) => (
@@ -16,7 +16,7 @@ export default function Education() {
                         <div className="w-full pb-1">
                             {cert.location}
                         </div>
-                        <div className="w-full"> 
+                        <div className="w-full">
                             <ul className="list-disc pl-10">
                                 {cert.certificates.map((certificate, index) => {
                                     return <li key={index}>{certificate}</li>

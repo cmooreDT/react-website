@@ -18,7 +18,7 @@ export default function Resume() {
                                 {job.location}
                             </div>
                         </div>
-                        <div className="w-full"> 
+                        <div className="w-full">
                             <ul className="list-disc pl-10">
                                 {job.duties.map((duty, index) => {
                                     return <li key={index}>{duty}</li>

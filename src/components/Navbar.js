@@ -2,7 +2,7 @@ import React, {useState, useRef, useEffect} from "react";
 import { HashLink as NavLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
- 
+
 const Navbar = () => {
     const ref = useRef();
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -23,9 +23,9 @@ const Navbar = () => {
     }, [navbarOpen]);
     return (
         <>
-            <nav aria-label="site navigation" ref={ref} class="border border-gray-300 md:border-t-0 md:border-r-0 md:border-b md:border-l-0 rounded-md md:rounded-none md:shadow-none transition-all duration-400 fixed h-15 text-white bg-slate-950 body-font md:w-full md:py-4 z-50" role="navigation">
+            <nav aria-label="site navigation" ref={ref} class="border border-gray-300 md:border-t-0 md:border-r-0 md:border-b md:border-l-0 rounded-md md:rounded-none md:shadow-none transition-all duration-400 fixed h-15 text-white bg-slate-950 md:w-full md:py-4 z-50" role="navigation">
                 <button onClick={() => setNavbarOpen(!navbarOpen)} className="transition hover:text-gray-300 hover:ease-in md:hidden p-4" data-collapse-toggle="navbar-sticky" aria-expanded={navbarOpen} aria-controls="navbar-sticky">
-                    {!navbarOpen ? 
+                    {!navbarOpen ?
                         <FontAwesomeIcon icon={faBars} />:
                         <FontAwesomeIcon icon={faClose} />
                     }
@@ -55,5 +55,5 @@ const Navbar = () => {
         </>
     );
 };
- 
+
 export default Navbar;
