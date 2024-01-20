@@ -13,11 +13,12 @@
         "features": "Built their standard carousel but added accessibility and responsive design"
     },
     {
-        "url": "#",
-        "repo": "#",
-        "title": "This website",
+        "url": "",
+        "repo": "https://github.com/cmooreDT/react-website",
+        "title": "This website you're currently looking at",
         "techStack": [
             "React",
+            "Tailwind CSS",
             "Mapped objects"
         ],
         "features": ""

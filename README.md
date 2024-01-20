@@ -9,4 +9,4 @@
 - react-slick
 - slick-carousel
 - sass
-
+- tailwind css
