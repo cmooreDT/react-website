@@ -4,15 +4,15 @@ import data from "../data/education.json"
 
 export default function Education() {
     return (
-        <section id="education" className="pt-20">
+        <section id="education" className="py-20 border-b-2 border-b-off-black">
         <div className="w-full lg:pr-24 md:pr-16 flex flex-col md:items-start text-left">
-                <h2 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
+                <h2 className="sm:text-4xl text-3xl mb-4 font-medium">
                     Education
                     {/* and Certifications */}
                 </h2>
                 {data.map((cert, index) => (
                     <div key={index} className="w-full pb-7 mb-7 last:pb-0 last:mb-0 border-b border-gray-300 last:border-b-0">
-                        <h3 className="text-lg font-bold pb-1 text-white">{cert.institution}</h3>
+                        <h3 className="text-lg font-bold pb-1">{cert.institution}</h3>
                         <div className="w-full pb-1">
                             {cert.location}
                         </div>

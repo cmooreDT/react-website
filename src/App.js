@@ -17,8 +17,10 @@ import './App.css';
 export default function App() {
     return (
         <Router>
-            <Navbar />
-            <main id="home" className="container mx-auto px-10 text-gray-300 body-font pt-20">
+            <header>
+                <Navbar />
+            </header>
+            <main id="home" className="bg-white text-off-black font-serif container mx-auto pt-20 px-5 md:px-2 lg:px-10">
                 <Routes>
                     <Route
                         path="/"
@@ -36,6 +38,9 @@ export default function App() {
                     <Route path="/carousel" element={<Carousel />} />
                 </Routes>
             </main>
+            <footer className="mb-5 text-center text-sm">
+                christinecodes.com
+            </footer>
         </Router>
     );
 }
