@@ -23,7 +23,7 @@ const Navbar = () => {
     }, [navbarOpen]);
     return (
         <>
-            <nav aria-label="site navigation" ref={ref} class="bg-off-black text-white font-serif fixed z-50 right-0 h-15 flex flex-col items-end md:block md:w-full md:py-4 border border-gray-300 md:border-x-0 md:border-t-0 rounded-md md:rounded-none md:shadow-none transition-all duration-400" role="navigation">
+            <nav aria-label="site navigation" ref={ref} class="bg-off-black text-white font-serif fixed z-50 right-0 h-15 flex flex-col items-end md:block md:w-full md:py-4 border border-gray-300 md:border-x-0 md:border-t-0 rounded-md md:rounded-none transition-all duration-400 md:shadow-xl shadow-off-black" role="navigation">
                 <button id="menubutton" data-collapse-toggle="navbar-sticky" aria-expanded={navbarOpen} aria-haspopup="true" aria-controls="navbar-sticky" onClick={() => setNavbarOpen(!navbarOpen)} className="transition hover:text-gray-300 hover:ease-in-out md:hidden p-4">
                     {!navbarOpen ?
                         <FontAwesomeIcon icon={faBars} />:

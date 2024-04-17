@@ -4,7 +4,7 @@ import data from "../data/resume.json";
 
 export default function Resume() {
     return (
-        <section id="resume" className="py-20 border-b-2 border-b-off-black">
+        <section id="resume" className="py-20 border-b-2 border-red-700">
             <div className="w-full lg:pr-24 md:pr-16 flex flex-col md:items-start text-left">
                 <h2 className="sm:text-4xl text-3xl mb-4 font-medium">Professional experience</h2>
                 {data.map((job, index) => (
@@ -21,7 +21,7 @@ export default function Resume() {
                         <div className="w-full">
                             <ul className="list-disc pl-10">
                                 {job.duties.map((duty, index) => {
-                                    return <li key={index}>{duty}</li>
+                                    return <li key={index} className="mb-1">{duty}</li>
                                 })}
                             </ul>
                         </div>

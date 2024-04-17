@@ -22,5 +22,21 @@
             "Mapped objects"
         ],
         "features": ""
+    },
+    {
+        "codepen": "https://codepen.io/purple-hippo/pen/qBwMYyp",
+        "title": "SASS color variations function",
+        "techStack": [
+            "SASS"
+        ],
+        "features": "A SASS function that calculates gray shade variables based on text being either white or black"
+    },
+    {
+        "codepen": "https://codepen.io/purple-hippo/pen/PogajJd",
+        "title": "SASS color contrast function",
+        "techStack": [
+            "SASS"
+        ],
+        "features": "A SASS function that compares the text color to background color and adjusts if contrast is insufficient"
     }
 ]

@@ -1,13 +1,28 @@
 [
     {
+        "role": "Senior UI/UX Developer (Contract)",
+        "company": "Pageflex",
+        "location": "Remote",
+        "time": "January 2024 to May 2024",
+        "duties": [
+            "Assisting with upgrading the Pageflex web-to-print marketing platform from Angular and Bootstrap 3 tech stack to Vue.js and Vuetify",
+            "Update Storefront platform's UI with HTML, CSS, SASS, and Bootstrap",
+            "Ensure WCAG compliance and accessibility standards are met by updating HTML markup and utilizing screen reader, Chrome's developer tools, and the Axe Accessibility browser extension"
+        ]
+    },
+    {
         "role": "Senior UI/UX Developer and Technical Consultant",
         "company": "Khoros",
         "location": "Remote",
-        "time": "January 2022 to January 2024",
+        "time": "January 2022 to January 2024 (Impacted by RIF)",
         "duties": [
+            "Tech Lead for 6 customers (often simultaneously), providing best-in-class service to top-tier customers by partnering with program managers and strategists to gather and document  business requirements and translating them into technical solutions",
+            "Assessed customers' desired customized components, scoped projects, created level of efforts (LOEs), wrote Statements of Work (SOWs), and delegated tasks to junior developers as a Tech Lead",
+            "Monitored project development work to drive the ongoing development and ensure solutions were delivered in line with project requirements",
             "Communicated directly with customers and guided them on how to use and customize Khoros' Community product",
-            "Assessed customers' desired customized components, scoped projects, created LOEs, and delegated tasks to junior developers as a Tech Lead",
-            "Wrote internal and external developer and customer documentation",
+            "Provided front-end development for net-new customers, implementing their branding and assets in to the Khoros Community platform; led external walkthroughs of the product to guide customers on how to use and customize the platform",
+            "Participated in quality assurance and UAT testing and monitoring to improve and maintain quality standards",
+            "Wrote and distributed internal and external developer and customer documentation",
             "Collaborated with UX/UI designers to take design specs from Figma and translate them into code",
             "Conducted code reviews for other developers and checked for efficiency and coding standards",
             "Ensured accessibility/WCAG standards were met, including utilizing Mac OS' and iOS' native screen reader, Chrome's developer tools, and the Axe Accessibility browser extension",
@@ -20,10 +35,11 @@
         "location": "Houston, TX",
         "time": "April 2019 to December 2022",
         "duties": [
-            "Collaborated with an in-house team of front and backend developers, graphic designers, and project managers in order to style around Vue.js and Aurelia projects",
-            "Delivered within a tight two-week sprint schedule and deadlines with Agile project management",
-            "Built company's flagship products - web-based HR enrollment and administration software",
-            "Customized product based on individual client needs"
+            "Collaborated with an in-house team of front and back-end developers, graphic designers, and project managers in order to style around Vue.js and Aurelia projects",
+            "Delivered fully vetted and finished project with minimal bugs and issues within a tight two-week sprint schedule and deadlines with Agile project management",
+            "Built company's flagship products — web-based HR enrollment and administration software",
+            "Customized product based on individual client needs",
+            "Developed responsive design using Bootstrap 4 framework and comply with WCAG standards"
         ]
     },
     {
@@ -32,8 +48,8 @@
         "location": "Houston, TX",
         "time": "Feburary 2014 to March 2019",
         "duties": [
-            "Worked with the front and backend development team, marketing department, and company executives in order to significantly upgrade the Pageflex web-to-print marketing platform",
-            "Converted existing client websites to Bootstrap as to ensure responsiveness across all browsers, platforms, and devices",
+            "Worked with the front and back-end development team, marketing department, and company executives in order to significantly upgrade the Pageflex web-to-print marketing platform",
+            "Updated 5 existing client platforms to Bootstrap to ensure responsiveness across all browsers, platforms, and devices",
             "Worked in tangent with other developers' AngularJS framework",
             "Participated in the creation of custom widgets with with project managers for 10-15 individual clients based on their needs"
         ]
@@ -44,10 +60,10 @@
         "location": "Los Angeles, CA",
         "time": "July 2006 to May 2010",
         "duties": [
-            "Lead frontend development of the brand's websites, intranet, and online stores",
-            "Assisted in creating the company's custom CMS and shopping cart system for the eight international e-commerce sites",
+            "Lead front-end development of the brand's websites, intranet, and online stores",
+            "Assisted in creating the company's custom CMS and shopping cart system for 8 international e-commerce sites",
             "Developed product page customizations and home page features for the online stores",
-            "Worked with art department, marketing, graphic designers, and product and project managers to code email blasts in multiple languages for retail and wholesale consumers, and corporate website- Lead frontend development of the brand's websites, intranet, and online stores", "Assisted in creating the company's custom CMS and shopping cart system for the eight international e-commerce sites - Developed product page customizations and home page features for the online stores - Worked with art department, marketing, graphic designers, and product and project managers to code email blasts in multiple languages for retail and wholesale consumers, and corporate website"
+            "Worked with art department, marketing, graphic designers, and product and project managers to code email blasts in multiple languages for retail and wholesale consumers, and corporate website"
         ]
     },
     {
@@ -56,8 +72,8 @@
         "location": "Los Angeles, CA",
         "time": "May 2005 to June 2006",
         "duties": [
-            "Co-lead a global website redesign and CMS migration with IBM and STA Travel, Global",
-            "Writing content, web design, and programming for the corporate websites, intranet, and email blast"
+            "Co-led a global website redesign and CMS migration with IBM and STA Travel, Global",
+            "Wrote content and performed web design and development  for the corporate websites, intranet, and email blasts"
         ]
     }
 ]

@@ -20,7 +20,7 @@ export default function App() {
             <header>
                 <Navbar />
             </header>
-            <main id="home" className="bg-white text-off-black font-serif container mx-auto pt-20 px-5 md:px-2 lg:px-10">
+            <main id="home" className="bg-stone-200 text-off-black font-serif container mx-auto pt-20 px-5 md:px-2 lg:px-10">
                 <Routes>
                     <Route
                         path="/"
